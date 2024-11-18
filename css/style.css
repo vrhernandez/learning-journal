@@ -11,14 +11,20 @@ body {
 }
 
 .container {
-    padding: 2.25em 1.25em 1.5em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
 }
 
 /* HEADER **************************************** */
 
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
+    background: #fff;
+    padding-top: 1.125em;
+    padding-bottom: 1.125em;
 }
 
 .logo {
@@ -58,6 +64,8 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 2.5em;
+    padding-top: 2.125em;
+    padding-bottom: 2.625em;
 }
 
 .blog {
@@ -81,6 +89,7 @@ nav a {
     justify-content: end;
     height: 18.75em;
     background: center/cover url("/images/blog-img-hero.png");
+    padding-bottom: 1.5em;
     color: #fff;
 }
 
@@ -105,6 +114,7 @@ nav a {
     align-items: center;
     padding: 2.25em 0;
     background: #0E0E0E;
+    font-size: 0.75rem;
     color: #fff;
 }
 
