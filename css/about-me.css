@@ -1,4 +1,22 @@
+.about-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px 33px;
+}
+
+.about-intro .article-text {
+    margin: 0;
+}
+
 .self-img {
     border-radius: 50%;
     width: 50%;
+    max-width: 182px;
+}
+
+@media (max-width: 768px) {
+    .about-intro {
+        flex-direction: column;
+    }
 }

@@ -1,0 +1,38 @@
+.blog-article {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25em;
+    margin-bottom: 3.125em;
+}
+
+.article-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 auto;
+    max-width: 844px;
+}
+
+.blog__img--big {
+    order: initial;
+    height: 50vw;
+}
+
+.blog__subtitle, .blog-listing__header {
+    font-size: 1rem;
+}
+
+.blog-listing__header {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .blog__subtitle, .blog-listing__header {
+        font-size: 1.5rem;
+    }
+
+    .blog__paragraph {
+        font-size: 1.125rem;
+    }
+}
