@@ -82,6 +82,7 @@ nav a {
     order: -2;
     border-radius: 3px;
     width: 100%;
+    height: 232px;
     object-fit: cover;
 }
 
@@ -114,7 +115,7 @@ nav a {
 .blog-listing {
     display: grid;
     gap: 40px 24px;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
     padding-bottom: 2.625em;
 }
 
@@ -133,7 +134,7 @@ nav a {
 
 
 /* NARROW  SCREEN **************************************/
-@media (max-width: 350px) {
+@media (max-width: 335px) {
     .container {
         padding-left: 0.8em;
         padding-right: 0.8em;
